@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 0.9rem;
+    padding: 2rem 0;
+}
+
+a {
+    text-decoration:none;
+    color: rgba(0,0,0,0.6);
+    font-weight: 500;
+
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.blue {
+    color:#00bddd
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+
+.header {
+    padding: 1rem 0;
+    background-color: #fff;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+
+
+
+}
+
+
+.birthday {
+    margin-bottom: 1rem;
+}
+.address {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+main {
+    
+    background-color: #fff;
+    flex-grow: 1;
+    padding: 1rem 0;
+}
+
+.main_content {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    column-gap: 3rem;
+    line-height: 160%;
+}
+
+.block h2 {
+    margin-bottom:  0.5rem;
+    
+}
+
+.block .block-item{
+    padding-bottom: 1rem;
+}
+
+.block .block-item__header {
+    font-weight: bold;
+
+}
+.block .block-item__date {
+    color: grey;
+    padding-bottom: 0.5rem;
+}
+
+.block .block-item__info {
+
+}
+
+.block .block-item__list {
+    padding-left: 2rem;
+}
+
+.block .block-item__ordered {
+    padding-left: 1rem;
+}
+
+.clear-list {
+    list-style: none;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+.mb-8 {
+    margin-bottom: 2rem;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+
+.photo {
+    flex-shrink: 0;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    
+    }
+}
